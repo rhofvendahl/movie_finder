@@ -3,7 +3,9 @@
 #### By Sarthak Agrawal and Russell Hofvendahl
 
 ## About
-This is the Movie Finder API repository.
+This is the Movie Finder API repository, currently deployed at: https://movie-finder-api-1.herokuapp.com/
+
+For the Movie Finder UI, checkout: https://github.com/rhofvendahl/movie-finder-ui/
 
 ## Setup
 1. Clone this repo and navigate to the root directory.

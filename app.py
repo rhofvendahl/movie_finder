@@ -15,8 +15,11 @@ def find_movies_mock():
     else:
         return "", 418
 
-    movies_json = jsonify(movies)
-    return movies_json, 200
+    response = {
+        "movies": movies,
+    }
+
+    return jsonify(response), 200
 
 @app.route("/find-movies")
 def find_movies():

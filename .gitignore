@@ -1,3 +1,4 @@
 data/big/*
 venv
 __pycache__
+!.gitkeep

@@ -1,2 +1,3 @@
 data/big/*
 venv
+__pycache__

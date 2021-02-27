@@ -12,9 +12,10 @@ git clone https://github.com/rhofvendahl/movie_finder_api
 cd movie_finder_api
 ```
 
-2. Set up the python virtual environment and install dependencies.
+2. Set up a virtual environment and install dependencies.
 ```
 pip install virtualenv
+python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
@@ -22,6 +23,39 @@ pip install -r requirements.txt
 3. Run the local server.
 ```
 flask run
+```
+
+## Collaboration
+1. Pull latest changes.
+```
+git pull origin
+```
+If there are conflicts, fix each file and commit the fix.
+
+2. Start a new feature branch.
+```
+git branch new_feature
+git checkout new_feature
+```
+
+3. Commit frequently as you work, with descriptive messages.
+
+4. When ready, go back to master and pull the latest changes from the server.
+```
+git checkout master
+git pull origin
+```
+
+5. Merge your local feature branch onto the master.
+```
+git merge new_feature
+```
+
+6. If any conflicts, fix and commit.
+
+7. Push your changes to the remote server.
+```
+git push
 ```
 
 ## License
